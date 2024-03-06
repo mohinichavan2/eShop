@@ -1,0 +1,32 @@
+.login__screen{
+    box-shadow: 2px 2px 2px 2px;
+    width: 40%;
+    margin-left: 380px;
+    height: 400px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.text__userpass {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .login__signin {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
